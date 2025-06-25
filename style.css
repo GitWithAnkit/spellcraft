@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('bgimg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #F0EFFF;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+}
+
+.start-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 180px);
+}
+
+#head {
+  color: #F4C95D;
+  font-size: 3rem;
+}
+
+#tagline {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.start-btn {
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #F4C95D;
+  color: #1E1B2E;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.start-btn:hover {
+  background-color: #FFD65C;
+}
+
+.game-content {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  background-color: rgba(30, 27, 46, 0.9);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(244, 201, 93, 0.4);
+}
+
+.lvl-name {
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #F0EFFF;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.question-area {
+  width: 100%;
+  background-color: #1E1B2E;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(244, 201, 93, 0.4);
+  font-size: 1.2rem;
+}
+
+#question {
+  text-align: center;
+  font-weight: bold;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.option {
+  background-color: #8E6FE7;
+  color: #F0EFFF;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option:hover {
+  background-color: #F4C95D;
+  color: #1E1B2E;
+}
+
+#feedback {
+  margin-top: 2rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.hud {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1E1B2E;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 0 20px rgba(244, 201, 93, 0.4);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.xp-bar-container {
+  flex-grow: 1;
+  height: 10px;
+  background-color: #444;
+  border-radius: 5px;
+  margin-left: 1rem;
+  overflow: hidden;
+}
+
+.xp-bar {
+  height: 100%;
+  background-color: #F4C95D;
+  width: 0%;
+  transition: width 0.5s ease;
+}
+
+.hud-buttons {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.next-btn {
+  background-color: #F4C95D;
+  color: #1E1B2E;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: 0.3s;
+}
+
+.next-btn:hover {
+  background-color: #FFD65C;
+}
