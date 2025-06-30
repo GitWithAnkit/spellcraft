@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SpellCraft</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-
-  <div class="header">
-    <h1 id="head">SPELLCRAFT</h1>
-    <h3 id="tagline">Defeat the bugs. Cast code spells. Level up!</h3>
-  </div>
-
-  <div id="start-screen" class="start-screen">
-    <button id="start-btn" class="start-btn">Start Game</button>
-  </div>
-
-  <div class="game-content" style="display: none">
-    <div id="lvl-name" class="lvl-name">Level 1</div>
-
-    <div class="main-section">
-      <div class="question-area">
-        <p id="question">Loading...</p>
-        <div class="options"></div>
-        <p id="feedback"></p>
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpellCraft</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1 id="head">SPELLCRAFT</h1>
+      <h3 id="tagline">Defeat the bugs. Cast code spells. Level up!</h3>
     </div>
 
-    <div class="hud">
-      <div id="hud-level">Level: 1</div>
-      <div id="hud-xp">XP: 0 / 300</div>
-      <div class="xp-bar-container">
-        <div class="xp-bar" id="xp-bar"></div>
-      </div>
+    <div id="start-screen" class="start-screen">
+      <button id="start-btn" class="start-btn">Start Game</button>
     </div>
 
-    <div id="hud-buttons" class="hud-buttons"></div>
-  </div>
+    <div class="game-content" style="display: none">
+      <div id="lvl-name" class="lvl-name">Level 1</div>
 
-  <script src="script.js"></script>
-</body>
+      <div class="main-section">
+        <div class="question-area">
+          <p id="question">Loading...</p>
+          <div class="options"></div>
+          <p id="feedback"></p>
+        </div>
+      </div>
+
+      <div class="hud">
+        <div id="hud-level">Level: 1</div>
+        <div id="hud-xp">XP: 0 / 300</div>
+        <div class="xp-bar-container">
+          <div class="xp-bar" id="xp-bar"></div>
+        </div>
+      </div>
+
+      <div id="hud-buttons" class="hud-buttons"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
