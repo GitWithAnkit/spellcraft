@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('bgimg.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('./images/bgimg.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
